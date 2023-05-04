@@ -7,11 +7,6 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class Main {
 
-    public static EnumPizzaStoreName getRandomStoreName() {
-        Random random = new Random();
-        return EnumPizzaStoreName.values()[random.nextInt(EnumPizzaStoreName.values().length)];
-    }
-
     public static double getRandomSalary() { // r.nextInt(high-low) + low; // between 7000 to 3000
         Random rand = new Random();
         return rand.nextInt(7000 - 3000) + 3000;
