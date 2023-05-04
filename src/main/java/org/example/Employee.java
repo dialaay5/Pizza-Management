@@ -3,8 +3,8 @@ package org.example;
 
 import lombok.Getter;
 import lombok.Setter;
-
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.Random;
 
 @Setter
@@ -20,7 +20,6 @@ public class Employee {
     protected int pizza_rank;
     protected LocalDate pizza_rank_date;
     protected String pizza_surprise;
-
 
 
     public Employee(int id, EnumPizzaStoreName enumPizzaStoreName, double salary, int pizza_rank, LocalDate pizza_rank_date, String pizza_surprise) {
