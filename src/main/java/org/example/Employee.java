@@ -21,8 +21,7 @@ public class Employee {
     protected LocalDate pizza_rank_date;
     protected String pizza_surprise;
 
-    public Employee() {
-    }
+
 
     public Employee(int id, EnumPizzaStoreName enumPizzaStoreName, double salary, int pizza_rank, LocalDate pizza_rank_date, String pizza_surprise) {
         this.id = id;

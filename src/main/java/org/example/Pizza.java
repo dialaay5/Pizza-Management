@@ -17,9 +17,7 @@ public abstract class Pizza {
     protected int rank;
     protected HashMap<Integer, Employee> map_of_employees = new HashMap<>();
 
-    public Pizza(){
 
-    }
     public Pizza(int id, EnumPizzaStoreName enumPizzaStoreName,int number_of_employees,int rank) {
         this.id = id;
         this.enumPizzaStoreName = enumPizzaStoreName;
